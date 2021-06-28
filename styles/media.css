@@ -147,6 +147,9 @@
 }
 
 @media(max-width:600px) {
+    .slick-slide{
+        margin:0px 36px !important;
+    }
     .form__inputs-top{
         flex-direction: column;
     }
@@ -205,8 +208,21 @@
         margin-top: 0px;
     }
 }
-
+@media(max-width:415px) {
+    .blog__item-img{
+        object-fit: contain;
+        max-width: 320px;
+    }
+    .slider__item-img{
+        object-fit: contain;
+        max-width: 320px;
+    }
+    .slick-slide{
+        margin:0px 45px !important;
+    }
+}
 @media(max-width:400px) {
+
     .main__logo {
         width: 15rem;
         height: 3rem;
