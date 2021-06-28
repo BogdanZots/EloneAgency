@@ -1,0 +1,215 @@
+@media(max-width:1400px) {
+    .ideas__balls {
+        margin-top: 15rem;
+        background-size: contain;
+        width: 40rem;
+        height: 40rem;
+        right: 20%;
+    }
+    .bloor1,
+    .bloor2,
+    .bloor3,
+    .bloor4 {
+        display: none;
+    }
+    .ideas__inner{
+        min-height: 600px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width:993px) {
+    .ideas__balls {
+        margin-top: 15rem;
+        background-size: contain;
+        width: 25rem;
+        height: 25rem;
+        right: 20%;
+        margin-top: 20rem;
+    }
+
+  /*   .bloor1,
+    .bloor2,
+    .bloor3,
+    .bloor4 {
+        display: none;
+    }
+ */
+    .select-box {
+        display: block !important;
+    }
+
+    .tabs {
+        display: none;
+    }
+
+    .quilities__img {
+        order: 2;
+    }
+
+    .menu-main {
+        display: none;
+    }
+
+    .header {
+        /*    margin-bottom: 400px; */
+    }
+
+
+    .quilities__item {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .burger-open {
+        display: block;
+    }
+
+    .burger {
+        margin-left: auto;
+        cursor: pointer;
+        z-index: 9999999;
+        margin-right: 30px;
+    }
+
+    .header {
+        position: static;
+    }
+
+    .mobile-menu {
+        width: 100%;
+        height: 100vh;
+        background: #3D85F9;
+        display: flex;
+        position: absolute;
+        z-index: 99999;
+        right: 0;
+        top: 0%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mobile-menu__ul {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+        transform: translateX(35%);
+        /*         transform: translateY(-95px) */
+    }
+
+    .mobile-menu__ul li {
+        margin-bottom: 24px;
+        position: relative;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        /* identical to box height, or 24px */
+
+        color: #07275C;
+    }
+
+    /*     .mobile-menu__ul li::before {
+        content: "\2022";
+        color: rgb(250, 148, 11);
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        height: 1rem;
+        box-shadow: 0px 1px 8px rgba(7, 39, 92, 0.1);
+        margin-left: -1em;
+    } */
+
+    .mobile-menu__ul li:last-child:before {
+        content: "";
+        color: rgb(250, 148, 11);
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        height: 1rem;
+        margin-left: -1em;
+    }
+
+    .mobile-menu__ul li:last-child {
+        transform: translateX(-30px);
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+}
+
+@media(max-width:600px) {
+    .form__inputs-top{
+        flex-direction: column;
+    }
+    .form__inputs-top > label{
+        max-width: 100%;
+        margin-top: 15px;
+    }
+    .form__inputs-top > label:last-child{
+        margin-left: 0px;
+    }
+    .ideas__title {
+        font-size: 35px;
+    }
+    .contact__container{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .footer__policy:last-child{
+        margin-left: 0;
+    }
+    .ideas__balls {
+        margin-top: 25rem;
+        background-size: contain;
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .header__ideas {
+        min-height: 600px;
+    }
+
+    .header {
+        margin-bottom: 0;
+    }
+
+    .logo-big {
+        width: 20rem;
+        height: 20rem;
+        object-fit: contain;
+    }
+
+    .q-img-3,
+    .q-img-2,
+    .q-img-1 {
+        width: 20rem;
+        height: 20rem;
+        object-fit: contain;
+    }
+
+    .footer {
+        margin-top: 60px;
+    }
+
+    .qualities {
+        margin-top: 0px;
+    }
+}
+
+@media(max-width:400px) {
+    .main__logo {
+        width: 15rem;
+        height: 3rem;
+        object-fit: contain;
+    }
+}
