@@ -20,6 +20,9 @@
 }
 
 @media(max-width:993px) {
+    .form__inputs-top{
+        justify-content: space-between;
+    }
     .ideas__balls {
         margin-top: 15rem;
         background-size: contain;
@@ -143,6 +146,10 @@
 
     .mobile-menu {
         display: none;
+    }
+    .contact__container{
+        width: 100%;
+        margin-top: 30px;
     }
 }
 
